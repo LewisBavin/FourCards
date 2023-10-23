@@ -1,7 +1,8 @@
-* {
+html {
   padding: 0;
   margin: 0;
   font-size: 10px;
+  font-weight: 100rem;
 }
 
 body {
@@ -13,18 +14,18 @@ body {
 
 header,
 main {
-  width: 335px;
+  width: 33.5rem;
   margin: auto;
 }
 
 header {
-  margin-bottom: 90px;
-  margin-top: 100px;
+  margin-bottom: 9rem;
+  margin-top: 10rem;
 
 }
 
 header p{
-  margin: 15px 0px 0px;
+  margin: 1.5rem 0 rem 0 rem;
 }
 
 header h1,
@@ -65,29 +66,24 @@ main p{
 
 /* WEIGHTING*/
 h2, h3{
-  font-weight: 600;
+  font-weight: 6rem;
 }
 
 header p, main p{
-font-weight: 400;
+font-weight: 4rem;
 }
 
 h1{
-  font-weight: 200;
+  font-weight: 2rem;
   }
 /* WEIGHTING */
 
-
-
-
-
-
 .card {
-  border-radius: 7px;
+  border-radius: 0.7rem;
   background-color: #ffffff;
-  margin-bottom: 30px;
-  padding: 25px;
-  box-shadow: 3px 8px 19px #7c7c7c;
+  margin-bottom: 3rem;
+  padding: 2.5rem;
+  box-shadow: 0.3rem 0.8rempx 1.9rem #7c7c7c;
 }
 
 .card .img-container {
@@ -97,34 +93,32 @@ h1{
 
 .card h3,
 .card p {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .supervisor {
-  border-top: solid 4px #45d3d3;
+  border-top: solid 0.4rem #45d3d3;
 }
 
 .team-builder {
-  border-top: solid 4px #ea5353;
+  border-top: solid 0.4rem #ea5353;
 }
 
 .karma {
-  border-top: solid 4px #fcaf4a;
+  border-top: solid 0.4rem #fcaf4a;
 }
 
 .calculator {
-  border-top: solid 4px #5484f2;
+  border-top: solid 0.4rem #5484f2;
 }
 
 
 
 
 @media screen and (min-width: 900px) {
-
-
   header{
-    width: 550px;
-    margin-bottom: 65px;
+    width: 55rem;
+    margin-bottom: 6.5rem;
   }
   main{
     width: auto;
@@ -137,8 +131,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 30px;
-    
+    padding: 0rem 3rem;
   }
 
   .diamond-inner{
@@ -148,16 +141,15 @@ h1{
   .diamond{
     width:auto;
     margin:auto;
- 
   }
 
 .card{
-  width: 277px;
-  height: 180px;
+  width: 27.7rem;
+  height: 18rem;
 }
 
 .img-container{
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 
 }
